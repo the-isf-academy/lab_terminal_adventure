@@ -1,0 +1,7 @@
+    After several moments of peaceful floating, you make a gentle landing on 
+    the seafloor, several hundered meters away from the sunken ship. You appear
+    to be at the edge of a plateau whose edges are encrusted with beautiful 
+    corals. 
+
+    Both sunken_ship and coral_reef are directories, so use the "cd" command
+    to go into whichever one you want.
