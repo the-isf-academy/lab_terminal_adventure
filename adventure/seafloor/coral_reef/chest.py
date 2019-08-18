@@ -2,7 +2,7 @@
 
 from urllib.request import urlretrieve
 
-secret = "381"
+secret = "318"
 
 print("    You approach the chest and see that the lock is surprisingly free of rust.")
 print("    In fact, the code dials turn smoothly. Try entering a code.")
