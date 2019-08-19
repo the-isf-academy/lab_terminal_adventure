@@ -15,7 +15,7 @@ def monster1():
 def monster2():
     print("    *rumble* *rumble* *rumble* \n")
     print("    A SEA MONSTER APPEARS FROM THE REEF! \n")
-    print("    All of a sudden, treasure has appeared! And the sea monster sees it too! No time to look. You grab the treasure from the chest.")
+    print("    All of a sudden, you realize there's treasure! And the sea monster sees it too! No time to look. You grab the treasure from the chest.")
     print("    Quick, use mkdir to make a \"bag\" directory and mv to")
     print("    hide the treasure.png in the bag. ")
     print("    Then get back to the surface ASAP! The monster is coming! \n")
