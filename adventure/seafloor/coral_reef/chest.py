@@ -15,4 +15,3 @@ if guess == secret:
     urlretrieve("http://chrisproctor.net/images/fork.png", "treasure.png")
 else:
     print("    nothing happens. Maybe next time.")
-

@@ -14,4 +14,4 @@ else:
     print("    'I would like to give you a gift. Here's a key.'")
 
     with open("key.txt", "w") as keyfile:
-        keyfile.write("    Even in the faint light of your lamp, the key has a golden gleam.")
+        keyfile.write("    Even in the faint light of your lamp, the key has a golden gleam.\n")
