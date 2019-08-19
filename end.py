@@ -26,7 +26,7 @@ def win():
     print("    You are swimming as fast as you can towards the boat but you can")
     print("    feel the water begin to pull you back as the sea monster opens its")
     print("    giant mouth.")
-    print("    You kick with all your might, sure that you are about to breath your")
+    print("    You kick with all your might, sure that you are about to breathe your")
     print("    last breath.")
     print("    ")
     print("    ")
@@ -35,6 +35,7 @@ def win():
     print("    time to avoid the sea monster's vicious maw.")
     print("    You're safe at last!")
     print("    Now you can finally show off the treasure you risked your life for...")
+    print("    Use open treasure.png to take a peek.")
 
 
 now = datetime.now()
