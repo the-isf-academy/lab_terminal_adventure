@@ -21,8 +21,8 @@ def monster2():
     print("    Then get back to the surface ASAP! The monster is coming! \n")
     print("    Don't forget to take your treasure bag with you up to the top directory!")
     now = datetime.datetime.now()
-    with open(".timer", "w") as keyfile:
-        keyfile.write(str(now))
+    with open(".timer", "w") as timerfile:
+        timerfile.write(str(now))
 
 
 secret = "318"
