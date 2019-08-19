@@ -10,12 +10,12 @@ def treasure():
 
 def monster1():
     print("    *rumble* *rumble* *rumble* \n")
-    print("    You look around the reef and you notice treasure has appeared!\n")
+    print("    If you look around the reef, you notice treasure has appeared!\n")
 
 def monster2():
     print("    *rumble* *rumble* *rumble* \n")
     print("    A SEA MONSTER APPEARS FROM THE REEF! \n")
-    print("    Without looking you grab the treasure from the chest.")
+    print("    You look briefly and you grab the treasure from the chest.")
     print("    Quick, use mkdir to make a \"bag\" directory and mv to")
     print("    hide the treasure in the bag. ")
     print("    Then get back to the surface ASAP! The monster is coming! \n")
