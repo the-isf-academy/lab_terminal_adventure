@@ -17,7 +17,7 @@ def monster2():
     print("    A SEA MONSTER APPEARS FROM THE REEF! \n")
     print("    All of a sudden, treasure has appeared! And the sea monster sees it too! No time to look. You grab the treasure from the chest.")
     print("    Quick, use mkdir to make a \"bag\" directory and mv to")
-    print("    hide the treasure in the bag. ")
+    print("    hide the treasure.png in the bag. ")
     print("    Then get back to the surface ASAP! The monster is coming! \n")
     print("    Don't forget to take your treasure bag with you up to the top directory!")
     now = datetime.datetime.now()
