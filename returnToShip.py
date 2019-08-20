@@ -31,7 +31,7 @@ def win():
     print("    ")
     print("    ")
     print("    Suddenly... A hand appears!")
-    print("    You made it to the boat and the crew pulls you into the boat, just in")
+    print("    You've made it to the boat! The crew pulls you into the boat, just in")
     print("    time to avoid the sea monster's vicious maw.")
     print("    You're safe at last!")
     print("    Now you can finally show off the treasure you risked your life for...")
