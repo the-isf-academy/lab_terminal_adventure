@@ -41,8 +41,8 @@ def win():
 now = datetime.now()
 if not Path("adventure/seafloor/coral_reef/.timer").exists():
 
-    print("    It seems you are not yet ready to end your adventure. More secrets")
-    print("    await you in the ocean's depths.")
+    print("    Your adventure has only just begun. You are not yet ready to return") 
+    print("    to the ship. More secrets await you in the ocean's depths.")
 
 else:
     if not Path("./bag/treasure.png").exists():
