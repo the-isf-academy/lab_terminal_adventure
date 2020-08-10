@@ -4,7 +4,7 @@ from datetime import timedelta
 import subprocess
 
 def reset():
-    with open("./bag/treasure.png", "w") as keyfile:
+    with open("./bag/treasure.jpg", "w") as keyfile:
         keyfile.write("lost")
 
     print("    You are swimming as fast as you can towards the boat but you can")
@@ -35,7 +35,7 @@ def win():
     print("    time to avoid the sea monster's vicious maw.")
     print("    You're safe at last!")
     print("    Now you can finally show off the treasure you risked your life for...")
-    print("    Use open treasure.png to take a peek.")
+    print("    Use open treasure.jpg to take a peek.")
 
 
 now = datetime.now()
@@ -45,7 +45,7 @@ if not Path("adventure/seafloor/coral_reef/.timer").exists():
     print("    to the ship. More secrets await you in the ocean's depths.")
 
 else:
-    if not Path("./bag/treasure.png").exists():
+    if not Path("./bag/treasure.jpg").exists():
 
         print("    You forgot your treasure bag! Hurry back to get it before the sea monster")
         print("    hides it away forever!")

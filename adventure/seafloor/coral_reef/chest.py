@@ -1,5 +1,6 @@
 # This is a Python program. You should run it by typing "chest.py"
 
+import os
 from urllib.request import urlretrieve
 import threading
 import datetime
@@ -36,7 +37,7 @@ guess = input("    > ")
 if guess == secret:
     print("    The chest snaps open, releasing several huge air bubbles.")
     print("    You look into the chest and see...\n")
-    urlretrieve("http://chrisproctor.net/images/fork.png", "treasure.png")
+    os.system('cp ./../../../.assets/fork.jpg treasure.jpg')
     timer1 = threading.Timer(1.0, treasure)
     timer2 = threading.Timer(3.0, monster1)
     timer3 = threading.Timer(5.0, monster2)
