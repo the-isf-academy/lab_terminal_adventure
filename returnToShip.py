@@ -1,11 +1,13 @@
-from pathlib import Path
+from pathlib  import Path
+import shutil
 from datetime import datetime
 from datetime import timedelta
 import subprocess
 
 def reset():
-    with open("./bag/treasure.jpg", "w") as keyfile:
-        keyfile.write("lost")
+
+    shutil.rmtree('bag')
+    Path('adventure/seafloor/coral_reef/.timer').unlink()
 
     print("    You are swimming as fast as you can towards the boat but you can")
     print("    feel the water begin to pull you back as the sea monster opens its")
